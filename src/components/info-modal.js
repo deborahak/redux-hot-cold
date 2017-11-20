@@ -30,3 +30,6 @@ export default class InfoModal extends React.Component {
         );
     }
 }
+
+
+
