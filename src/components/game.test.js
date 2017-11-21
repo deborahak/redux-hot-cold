@@ -7,7 +7,7 @@ describe('<Game />', () => {
 	it('Renders without crashing', () => {
 		shallow(<Game />);
 	});
-    it('Can starts a new game', () => {
+    it('Can start a new game', () => {
         const wrapper = shallow(<Game />);
         wrapper.setState({
             guesses: [7, 8, 9],
