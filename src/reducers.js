@@ -13,6 +13,7 @@ export default (state = initialState, action) => {
 			feedback: 'Make your guess!',
 			correctAnswer: action.correctAnswer
 		});
+		console.log(this.correctAnswer);
 	}
 
 	if (action.type === MAKE_GUESS) {
